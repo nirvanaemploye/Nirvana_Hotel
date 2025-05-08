@@ -56,7 +56,7 @@ const Footer = () => {
           {/* Newsletter */}
           <div className="space-y-5">
             <h2 className="text-xl md:text-2xl font-semibold text-primary">Sign up for newsletter</h2>
-            <div className="flex items-center border-b-2 border-gray-600 text-sm">
+            <div className="flex items-center border-b-2 border-gray-700 text-sm">
               <input
                 type="email"
                 placeholder="Your email address"
@@ -75,8 +75,8 @@ const Footer = () => {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-600 mt-12 pt-6 text-center">
-          <p className="text-xs sm:text-sm text-gray-300">
+        <div className="border-t border-gray-700 mt-12 pt-6 text-center">
+          <p className="text-xs sm:text-sm text-gray-400">
             &copy; {new Date().getFullYear()} All rights reserved | Your Company Name
           </p>
         </div>
