@@ -1,7 +1,7 @@
 import React from "react";
 import Gallay1 from "../../../assets/GalleryImg/img1.jpg";
 import Gallay2 from "../../../assets/GalleryImg/img2.jpg";
-import Gallay3 from "../../../assets/GalleryImg/img3.jpg";
+// import Gallay3 from "../../../assets/GalleryImg/img3.jpg";
 import Gallay4 from "../../../assets/GalleryImg/img4.jpg";
 import Gallay5 from "../../../assets/GalleryImg/img5.jpg";
 
