@@ -75,7 +75,7 @@ const Blog = () => {
                     typesetting industry.
                   </p>
                   <div className="mt-4">
-                    <PrimaryBtn className="w-1/2 sm:w-1/3">
+                    <PrimaryBtn className=" ">
                       View Post
                     </PrimaryBtn>
                   </div>

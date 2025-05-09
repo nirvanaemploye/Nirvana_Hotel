@@ -2,11 +2,10 @@ import React from "react";
 import Heading from "../../../share/Heading";
 import balloon from "../../../assets/Png/balloon.png";
 import Img1 from "../../../assets/AboutImg/Gallery/Img1.jpg";
-import Img2 from "../../../assets/AboutImg/Gallery/Img2.jpg";
-import Img3 from "../../../assets/AboutImg/Gallery/Img3.jpg";
-import Img4 from "../../../assets/AboutImg/Gallery/Img4.jpg";
-import Img5 from "../../../assets/AboutImg/Gallery/Img5.jpg";
-import Img6 from "../../../assets/AboutImg/Gallery/Img6.jpg";
+import Img2 from "../../../assets/AboutImg/Gallery/img2.jpg";
+import Img4 from "../../../assets/AboutImg/Gallery/img4.jpg";
+import Img5 from "../../../assets/AboutImg/Gallery/img5.jpg";
+import Img6 from "../../../assets/AboutImg/Gallery/img6.jpg";
 import { motion } from "framer-motion";
 
 const AboutGallery = () => {
