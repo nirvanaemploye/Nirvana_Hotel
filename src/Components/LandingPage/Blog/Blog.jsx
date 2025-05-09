@@ -63,7 +63,7 @@ const Blog = () => {
                   className="h-52 sm:h-auto sm:w-1/2 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="p-5 sm:p-6 flex flex-col justify-around w-full">
-                  <div className="flex flex-wrap items-center gap-2 text-gray-400 text-lg">
+                  <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-gray-400 text-sm sm:text-base">
                     <p>By John White</p>
                     <GoDotFill />
                     <p>4 Mar 2025</p>
