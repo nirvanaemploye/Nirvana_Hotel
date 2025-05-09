@@ -32,14 +32,14 @@ const Blog = () => {
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent rounded-tl-2xl rounded-br-2xl opacity-0 group-hover:opacity-100 transition duration-300 flex items-end">
               <div className="p-5 sm:p-7 md:p-10 text-white w-full">
-                <div className="flex flex-wrap items-center gap-2 text-primary text-sm md:text-base">
+                <div className="flex flex-wrap items-center gap-2 text-primary text-sm md:text-xl">
                   <p>By John White</p>
                   <GoDotFill className="text-white" />
                   <p>4 Mar 2025</p>
                   <GoDotFill className="text-white" />
                   <p>6 comments</p>
                 </div>
-                <p className="mt-4 font-semibold text-base md:text-lg leading-snug">
+                <p className="mt-4 font-semibold text-base md:text-2xl leading-snug">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
@@ -63,14 +63,14 @@ const Blog = () => {
                   className="h-52 sm:h-auto sm:w-1/2 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="p-5 sm:p-6 flex flex-col justify-around w-full">
-                  <div className="flex flex-wrap items-center gap-2 text-gray-400 text-sm">
+                  <div className="flex flex-wrap items-center gap-2 text-gray-400 text-lg">
                     <p>By John White</p>
                     <GoDotFill />
                     <p>4 Mar 2025</p>
                     <GoDotFill />
                     <p>6 comments</p>
                   </div>
-                  <p className="mt-3 text-base sm:text-xl font-semibold leading-snug">
+                  <p className="mt-3 text-base sm:text-2xl font-semibold leading-snug">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry Lorem Ipsum is simply dummy text of ting industry.
                   </p>
