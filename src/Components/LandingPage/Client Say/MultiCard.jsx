@@ -79,6 +79,7 @@ const MultiCard = () => {
             </div>
             <img
             data-aos="fade-down"
+            data-aos-offset="100"
               src={item.img}
               alt={item.name}
               className="w-16 h-16 md:w-20 md:h-20 rounded-full mx-auto mt-6 object-cover"

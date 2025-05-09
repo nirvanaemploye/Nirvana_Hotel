@@ -89,13 +89,13 @@ const Popular = () => {
                 {item.price}
               </p>
             )}
-            <div className="flex flex-shrink justify-center w-full mt-8 duration-300 transition ease-in-out overflow-hidden">
+            <div className="flex flex-shrink justify-center w-full mt-8 duration-200 transition ease-in-out overflow-hidden">
               {activeIndex === index && (
-                <p className="transition-opacity mr-auto duration-300  h-5">
+                <p className="transition-opacity mr-auto duration-300 h-5">
                   {item.name}
                 </p>
               )}
-              <h2 className="text-xl font-semibold flex items-center gap-1">
+              <h2 className="text-lg font-semibold flex items-center gap-1">
                 <MdLocationOn className="text-primary" />
                 {item.location}
               </h2>

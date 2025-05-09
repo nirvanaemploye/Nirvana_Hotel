@@ -29,7 +29,7 @@ const Bblog = () => {
                   src={Air}
                   alt=""
                   className="absolute top-10 left-4 sm:left-16 h-12 sm:h-[78px]"
-                  animate={{ x: [0, 250, ] }}
+                  animate={{ x: [0, 250, ], y: [0, -30, ] }}
                   transition={{
                     duration: 14,
                     repeat: Infinity,
@@ -136,7 +136,7 @@ const Bblog = () => {
               className="absolute right-16 -bottom-24 xl:bottom-1/4 h-12 sm:h-32"
               animate={{ y: [0, -10, 0] }}
               transition={{
-                duration: 6,
+                duration: 4,
                 repeat: Infinity,
                 ease: "linear",
               }}

@@ -95,7 +95,7 @@ const DestinationCard = () => {
                 </div>
 
                 <div className="flex flex-row justify-between items-center">
-                  <div className="flex flex-col sm:justify-between gap-3 mt-2">
+                  <div className="flex flex-col sm:justify-between gap-2 mt-1">
                     <p className="text-gray-600 text-sm flex items-center gap-1">
                       <IoLocationOutline className="text-primary" />
                       {item.location}

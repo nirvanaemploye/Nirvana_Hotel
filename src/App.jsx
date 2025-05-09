@@ -37,7 +37,7 @@ const App = () => {
   useEffect(() => {
     AOS.init({
       duration: 500,
-      // once: true,
+      once: true,
       easing: 'ease-in-out',
       anchorPlacement: 'top-bottom',
       delay: 300

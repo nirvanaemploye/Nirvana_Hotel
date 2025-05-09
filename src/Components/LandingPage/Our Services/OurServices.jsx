@@ -89,7 +89,7 @@ const OurServices = () => {
                     <h1 className="text-2xl sm:text-3xl font-bold">
                       {item.count}
                     </h1>
-                    <p className="text-xl font-bold text-primary">
+                    <p className="text-xl font-semibold text-primary">
                       {item.name}
                     </p>
                   </div>
