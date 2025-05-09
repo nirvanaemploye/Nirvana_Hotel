@@ -20,7 +20,7 @@ import Blog from "./Components/LandingPage/Blog/Blog";
 // About
 import AboutHeader from "./Components/AboutPage/AboutHeader/AboutHeader";
 import AboutUs from "./Components/AboutPage/AboutUs/AboutUs";
-import Guide from "./Components/AboutPage/guide/guide";
+import Guide from "./Components/AboutPage/Guide/Guide";
 import AboutGallery from "./Components/AboutPage/AboutGallery/AboutGallery";
 
 // Blog
@@ -77,7 +77,6 @@ const App = () => {
           element={
             <>
               <BlogHeader />
-
               <Bblog />
             </>
           }
