@@ -51,7 +51,7 @@ const Blog = () => {
           </div>
 
           {/* Blog list */}
-          <div className="flex flex-col xl:gap-y-16 w-full items-center ">
+          <div className="flex flex-col xl:gap-y-16 gap-y-8 w-full items-center ">
             {[1, 2].map((_, idx) => (
               <div
                 key={idx}
@@ -70,7 +70,7 @@ const Blog = () => {
                     <GoDotFill />
                     <p>6 comments</p>
                   </div>
-                  <p className="mt-3 text-base sm:text-2xl font-semibold leading-snug">
+                  <p className="mt-3 text-base 2xl:text-2xl font-semibold leading-snug">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry Lorem Ipsum is simply dummy text of ting industry.
                   </p>

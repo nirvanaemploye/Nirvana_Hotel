@@ -65,7 +65,7 @@ const DestinationData = [
 const DestinationCard = () => {
   return (
     <section className="py-10 ">
-      <div data-aos="fade-left" data-aos-duration="500" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 gap-y-24 relative z-10">
+      <div data-aos="fade-left" data-aos-duration="500" className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-12 gap-y-24 relative z-10">
         {DestinationData.map((item) => (
           <div
             key={item.id}
