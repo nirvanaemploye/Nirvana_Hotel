@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/Png/Air.png";
+import Logo from "../assets/Png/Air.svg";
 
 const Heading = ({ title, heading, className = "", align = "" }) => {
   const alignment = align === "left" ? "text-left items-start" : "text-center items-center";

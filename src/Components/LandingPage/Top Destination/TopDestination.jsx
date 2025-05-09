@@ -10,7 +10,7 @@ const TopDestination = () => {
       <motion.img
         src={balloon}
         alt=""
-        className="absolute top-0 lg:right-16 md:h-32 h-14"
+        className="absolute top-0 right-6 lg:right-16  md:h-32 h-14"
         animate={{ x: [0, -10, 0] }}
         transition={{
           duration: 3,

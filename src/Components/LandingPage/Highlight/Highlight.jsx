@@ -1,7 +1,7 @@
 import React from "react";
-import Icon1 from "../../../assets/HomeImg/Highlight/H1.png";
-import Icon2 from "../../../assets/HomeImg/Highlight/H2.png";
-import Icon3 from "../../../assets/HomeImg/Highlight/H3.png";
+import Icon1 from "../../../assets/HomeImg/Highlight/H1.svg";
+import Icon2 from "../../../assets/HomeImg/Highlight/H2.svg";
+import Icon3 from "../../../assets/HomeImg/Highlight/H3.svg";
 
 
 const Data = [

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/Png/Logo3.png";
+import Logo from "../../assets/Png/Logo3.svg";
 import PrimaryBtn from "../PrimaryBtn";
 import { Link } from "react-router-dom";
 import { LuSquareMenu, LuSquareX } from "react-icons/lu";
