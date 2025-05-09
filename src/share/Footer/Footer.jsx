@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../assets/Png/Logo3.png";
 import Footerimg from "../../assets/HomeImg/FooterImg.png";
-import viman from "../../assets/Png/viman.png";
+import viman from "../../assets/Png/Viman.png";
 import { FaFacebookF, FaGoogle } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { RiWhatsappFill } from "react-icons/ri";
