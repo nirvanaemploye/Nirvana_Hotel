@@ -4,7 +4,7 @@ import SerImg from "../../../assets/HomeImg/ServiceImgs/Services.png";
 import Icon1 from "../../../assets/HomeImg/ServiceImgs/Country.svg";
 import Icon2 from "../../../assets/HomeImg/ServiceImgs/Hotel.svg";
 import Icon3 from "../../../assets/HomeImg/ServiceImgs/Rooms.svg";
-import Icon4 from "../../../assets/HomeImg/ServiceImgs/Workers.svg";
+import Icon4 from "../../../assets/HomeImg/ServiceImgs/workers.svg";
 import car from "../../../assets/Png/Car.svg";
 import Tree from "../../../assets/Png/Tree.svg";
 import { motion } from "framer-motion";
