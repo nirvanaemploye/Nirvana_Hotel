@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "../../../share/Heading";
-import car from "../../../assets/Png/Car.png";
-import tree from "../../../assets/Png/Tree.png";
+import car from "../../../assets/Png/Car.svg";
+import tree from "../../../assets/Png/Tree.svg";
 import GalleryGrid from "./GalleryGrid";
 import { motion } from "framer-motion";
 

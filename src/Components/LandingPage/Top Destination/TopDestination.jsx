@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "../../../share/Heading";
-import balloon from "../../../assets/Png/balloon.png";
+import balloon from "../../../assets/Png/balloon.svg";
 import Popular from "./Popular";
 import { motion } from "framer-motion"; // Import motion  from "framer-motion";
 

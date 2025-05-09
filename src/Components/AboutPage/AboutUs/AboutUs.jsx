@@ -1,7 +1,7 @@
 import React from "react";
 import aboutImg from "../../../assets/AboutImg/AboutUs.jpg";
 import Heading from "../../../share/Heading";
-import Boat from "../../../assets/Png/Boat.png";
+import Boat from "../../../assets/Png/Boat.svg";
 import { motion } from "framer-motion";
 const AboutUs = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "../../../share/Heading";
-import balloon from "../../../assets/Png/balloon.png";
+import balloon from "../../../assets/Png/balloon.svg";
 import Img1 from "../../../assets/AboutImg/Gallery/Img1.jpg";
 import Img2 from "../../../assets/AboutImg/Gallery/img2.jpg";
 import Img4 from "../../../assets/AboutImg/Gallery/img4.jpg";

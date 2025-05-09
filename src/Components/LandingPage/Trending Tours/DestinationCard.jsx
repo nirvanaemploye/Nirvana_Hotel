@@ -116,7 +116,7 @@ const DestinationCard = () => {
                     </div>
                   </div>
                   <div className="pt-3">
-                    <PrimaryBtn className=" sm:w-auto text-center">
+                    <PrimaryBtn className="hover:bg-secondary duration-300 transition sm:w-auto text-center">
                       Book Now
                     </PrimaryBtn>
                   </div>

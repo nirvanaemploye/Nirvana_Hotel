@@ -56,10 +56,13 @@ const Popular = () => {
   };
 
   return (
-    <div  data-aos="fade-left" data-aos-duration="500" className="flex flex-wrap lg:flex-nowrap items-center justify-center xl:justify-between gap-6 pt-16 px-4">
+    <div
+      data-aos="fade-left"
+      data-aos-duration="500"
+      className="flex flex-wrap lg:flex-nowrap items-center justify-center xl:justify-between gap-6 pt-16 px-4"
+    >
       {hotels.map((item, index) => (
         <div
-         
           key={index}
           onMouseEnter={() => handleMouseEnter(index)}
           className={`relative bg-transparent rounded-tl-2xl rounded-br-2xl overflow-hidden transition-all duration-500 ease-in-out 
@@ -74,7 +77,10 @@ const Popular = () => {
           />
           <div className="p-5 absolute top-0 font-bold text-white flex flex-col justify-end items-center h-full bg-gradient-to-t from-black/80 to-transparent w-full gap-y-2">
             {item.button && activeIndex === index && (
-              <PrimaryBtn className="bg-primary transition-opacity duration-300">
+              <PrimaryBtn
+                delay={50}
+                className="hover:bg-secondary transition-opacity duration-300"
+              >
                 Book Now
               </PrimaryBtn>
             )}
@@ -83,13 +89,13 @@ const Popular = () => {
                 {item.price}
               </p>
             )}
-            <div className="flex flex-row items-center justify-center w-full mt-8 duration-300 transition ease-in-out overflow-hidden">
+            <div className="flex flex-shrink justify-center w-full mt-8 duration-300 transition ease-in-out overflow-hidden">
               {activeIndex === index && (
-                <p className="transition-opacity mr-auto duration-300">
+                <p className="transition-opacity mr-auto duration-300  h-5">
                   {item.name}
                 </p>
               )}
-              <h2 className="text-xl font-semibold flex items-center gap-2">
+              <h2 className="text-xl font-semibold flex items-center gap-1">
                 <MdLocationOn className="text-primary" />
                 {item.location}
               </h2>

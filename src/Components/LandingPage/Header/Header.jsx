@@ -23,7 +23,7 @@ const Header = () => {
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s
             </p>
-            <PrimaryBtn delay={500} className="" >Sing Up</PrimaryBtn>
+            <PrimaryBtn delay={500} className="hover:bg-secondary transition duration-300" >Sing Up</PrimaryBtn>
           </div>
           </div>
         </div>

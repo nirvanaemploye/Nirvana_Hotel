@@ -4,7 +4,7 @@ import BlogImg2 from "../../../assets/HomeImg/Blog/Blog2.png";
 import Heading from "../../../share/Heading";
 import { GoDotFill } from "react-icons/go";
 import PrimaryBtn from "../../../share/PrimaryBtn";
-import Bench from "../../../assets/Png/Bench.png";
+import Bench from "../../../assets/Png/Bench.svg";
 
 const Blog = () => {
   return (
@@ -75,7 +75,7 @@ const Blog = () => {
                     typesetting industry.
                   </p>
                   <div className="mt-4">
-                    <PrimaryBtn className=" ">
+                    <PrimaryBtn className="hover:bg-secondary duration-300 transition">
                       View Post
                     </PrimaryBtn>
                   </div>

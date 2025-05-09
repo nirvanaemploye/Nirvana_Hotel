@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "../../../share/Heading";
 import DestinationCard from "./DestinationCard";
-import Airplane from "../../../assets/Png/Airplane.png";
+import Airplane from "../../../assets/Png/Airplane.svg";
 import { motion } from "framer-motion";
 
 

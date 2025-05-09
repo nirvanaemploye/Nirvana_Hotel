@@ -1,11 +1,12 @@
 import React from "react";
 import Heading from "../../../share/Heading";
 import SerImg from "../../../assets/HomeImg/ServiceImgs/Services.png";
-import Icon1 from "../../../assets/HomeImg/ServiceImgs/Country.png";
-import Icon2 from "../../../assets/HomeImg/ServiceImgs/Hotel.png";
-import Icon3 from "../../../assets/HomeImg/ServiceImgs/Rooms.png";
-import car from "../../../assets/Png/Car.png";
-import Tree from "../../../assets/Png/Tree.png";
+import Icon1 from "../../../assets/HomeImg/ServiceImgs/Country.svg";
+import Icon2 from "../../../assets/HomeImg/ServiceImgs/Hotel.svg";
+import Icon3 from "../../../assets/HomeImg/ServiceImgs/Rooms.svg";
+import Icon4 from "../../../assets/HomeImg/ServiceImgs/Workers.svg";
+import car from "../../../assets/Png/Car.svg";
+import Tree from "../../../assets/Png/Tree.svg";
 import { motion } from "framer-motion";
 
 
@@ -13,7 +14,7 @@ const Data = [
   { id: 1, img: Icon1, count: "180", name: "Countries" },
   { id: 2, img: Icon2, count: "220", name: "Hotels" },
   { id: 3, img: Icon3, count: "430", name: "Rooms" },
-  { id: 4, img: Icon3, count: "560", name: "Workers" },
+  { id: 4, img: Icon4, count: "560", name: "Workers" },
 ];
 
 const OurServices = () => {

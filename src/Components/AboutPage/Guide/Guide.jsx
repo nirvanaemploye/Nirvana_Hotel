@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "../../../share/Heading";
-import Airplane from "../../../assets/Png/Airplane.png";
+import Airplane from "../../../assets/Png/Airplane.svg";
 import GuideCards from "./GuideCards";
 import { motion } from "framer-motion";
 
